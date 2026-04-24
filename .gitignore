@@ -1,0 +1,51 @@
+
+# Python (Compiled and Cache)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.log
+
+# Virtual Environments (Supports venv, virtualenv, and Poetry)
+.venv/
+venv/
+env/
+ENV/
+
+# Sensitive Variables 
+.env
+*.env
+.env.*
+secrets.json
+config.json
+!.env.example
+
+# Database files and Local Statics
+db.sqlite3
+media/
+staticfiles/
+
+# Redis / Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Security (Certificates and Keys)
+*.pem
+*.crt
+*.key
+certs/
+
+# Testing and Coverage
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
